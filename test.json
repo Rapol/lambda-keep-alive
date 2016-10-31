@@ -1,0 +1,48 @@
+{
+  "url": "",
+  "timeout": 20000,
+  "endpoints": [
+    {
+      "name": "login",
+      "method": "POST",
+      "status": 400,
+      "body": {
+        "username": "test@email.com"
+      }
+    },
+    {
+      "name": "register",
+      "method": "POST",
+      "status": 400,
+      "body": {
+        "username": "test@email.com"
+      }
+    },
+    {
+      "name": "refresh",
+      "method": "GET",
+      "status": 400
+    },
+    {
+      "name": "password/test",
+      "method": "POST",
+      "status": 400,
+      "body": {
+        "username": "test@email.com"
+      }
+    },
+    {
+      "name": "password/test",
+      "method": "PUT",
+      "status": 400,
+      "body": {
+        "username": "test@email.com"
+      }
+    },
+    {
+      "name": "accounts/1/things",
+      "method": "GET",
+      "status": 403
+    }
+  ]
+}

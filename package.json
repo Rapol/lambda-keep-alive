@@ -1,0 +1,17 @@
+{
+  "name": "lambda-keepalive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.6.12",
+    "request": "^2.76.0",
+    "request-promise": "^4.1.1",
+    "serverless": "^1.0.3"
+  }
+}
